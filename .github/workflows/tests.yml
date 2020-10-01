@@ -7,5 +7,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/chechkout@v2
+      - uses: actions/checkout@v2
       - run: cd auth && yarn install && yarn run test:ci
